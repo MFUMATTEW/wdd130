@@ -1,4 +1,4 @@
-/* :root{
+ :root{
     --primary-color: #e6e1b3;
     --secondary-color: #16db65;
     --accent1-color: #058c42;
@@ -7,7 +7,7 @@
     --body-font: "Lato", sans-serif;
 }
 
-header{
+/* header{
     margin: 1rem auto;
     display : grid ;
     grid-template-columns:  300px 1fr;
@@ -107,6 +107,10 @@ nav, p, section, article{
 .socialmedia{
     display: flex;
     justify-content: flex-end;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 .hero {
