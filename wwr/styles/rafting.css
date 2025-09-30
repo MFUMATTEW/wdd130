@@ -1,4 +1,4 @@
-:root{
+/* :root{
     --primary-color: #e6e1b3;
     --secondary-color: #16db65;
     --accent1-color: #058c42;
@@ -76,7 +76,7 @@ figcaption{
 .moto{
     text-align: center;
 
-}
+} */
 
 * {
     margin: 0;
@@ -145,7 +145,7 @@ article{
     padding: 5px;
 }
 
-footer{
+/* footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -169,7 +169,7 @@ footer nav a {
 /* Contact us page  */
 
 
-.heros {
+/* .heros {
     position:relative;
 }
 
@@ -192,11 +192,11 @@ footer nav a {
     background-color: var(--primary-color);
     color: black;
     
-} 
+}  */
 
 /* Form */
 
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -285,7 +285,7 @@ button:hover {
 .map{
     display: flex;
     justify-content: center;
-}
+}  */
 
 
 
