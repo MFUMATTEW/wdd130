@@ -7,7 +7,7 @@
     --body-font: "Lato", sans-serif;
 }
 
-/* header{
+header{
     margin: 1rem auto;
     display : grid ;
     grid-template-columns:  300px 1fr;
@@ -76,7 +76,7 @@ figcaption{
 .moto{
     text-align: center;
 
-} */
+}
 
 * {
     margin: 0;
@@ -149,7 +149,7 @@ article{
     padding: 5px;
 }
 
-/* footer{
+ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -290,9 +290,3 @@ button:hover {
     display: flex;
     justify-content: center;
 }  */
-
-
-
-
-
-

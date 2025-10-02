@@ -12,15 +12,32 @@
 
 
 
- nav {
+/* nav {
     background-color: var(--heading-background-color);
-    padding: 10px;
+    padding: 10px; 
+} */
+
+nav {
+    background-color: var(--heading-background-color);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-nav a {
+/* nav a {
     color: white;
     display: block;
     padding: 20px;
+} */
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
 }
 
 h1 {
@@ -40,11 +57,29 @@ p {
     padding: 0;
 }
 
-main{
+/* main{
     max-width: 840px;
+} */
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
-/* aside{
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+aside{
     width: 20rem;
     margin: 1rem;
     border: 5px solid var(--heading-background-color);
@@ -53,7 +88,7 @@ main{
     color: black;
     text-align: center;
 
- } */
+ }
   aside img {
         width: 200px;
         height: auto;
@@ -83,4 +118,9 @@ main{
     position: absolute;
     top: 47px;
     left: 150px;
+ }
+
+ header, footer{
+    max-width: 840px;
+    margin: 0 auto;
  }
