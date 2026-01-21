@@ -1,4 +1,13 @@
-;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
+}
 
 :root {
     --background-color: #eee;
@@ -6,30 +15,34 @@
 }
 
 nav {
-    background-color: darkblue;
+    background-color: rgb(164, 164, 190);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: black;
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue;
+    color: rgb(164, 164, 190);
+    padding: 1rem;
 }
 
 main img {
-    width: 150px;
+    float: right;
+    width: 200px;
     height: auto;
     border: var(--border);
     padding: 2px;
+    margin: 0 0 1rem 1rem;
     box-shadow: 0 0 30px gray;
 }
 
 p {
     padding: 0;
+    margin: 1rem;
 }
 
 main {
@@ -37,17 +50,25 @@ main {
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
+    position: relative;
+    width: 30rem;
+    /* margin: 1rem; */
     border: 3px solid black;
-    padding: 1rem;
-    background-color: var(--background-color);
-    color: black;
+    /* padding: 1rem; */
+    /* background-color: var(--background-color);
+    color: black; */
     text-align: center;
 }
 
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 185px;
+    color: var(--background-color);
+}
+
 aside img {
-    width: 200px;
+    width: 400px;
     height: auto;
 }
 
@@ -55,4 +76,18 @@ footer {
     margin-top: 15px;
     border-top: var(--border);
     text-align: center;
+}
+
+/* class selectors */
+
+.box {
+    margin: 1rem;
+    border: var(--border);
+    padding: 1rem;
+    background-color: var(--background-color);
+    color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
 }
