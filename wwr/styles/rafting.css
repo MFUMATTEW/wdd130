@@ -79,3 +79,93 @@ h1 {
     margin: 0 0 0 5px;
     border: black solid 2px;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 1rem;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    font-family: var(--heading-font);
+}
+
+li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    color: var(--accent1-color);
+    padding: 20px;
+    font-size: 1.4rem;
+}
+
+.history {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.history img {
+    width: 250px;
+    text-align: center;
+}
+
+.history p {
+    flex: 1;
+    margin: 0 25px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.adventure {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 20%;
+    margin: auto;
+}
+
+figcaption {
+    padding: 5px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+footer nav {
+    margin-left: 1em;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
