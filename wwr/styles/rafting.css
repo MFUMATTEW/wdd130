@@ -169,3 +169,135 @@ footer nav {
     display: inline-flex;
     align-items: center;
 }
+
+/* Contact Page  */
+
+h3 {
+    width: 100%;
+    padding: 15px 17rem;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    font-size: 1.8rem;
+}
+
+.info {
+    display: grid;
+    justify-content: center;
+}
+
+.info p {
+    padding: .5px;
+    margin: .7rem;
+    justify-content: space-around;
+
+}
+
+.contact {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+
+iframe {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Form */
+
+form {
+    width: 380px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+fieldset {
+    display: grid;
+    gap: .5rem;
+    margin: .5rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: .5rem;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: center;
+    padding-right: .5rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+legend {
+    color: navy;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem;
+    gap: .3rem;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
+
+.column3 {
+    margin-top: 1.5rem;
+}
