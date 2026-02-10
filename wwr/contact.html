@@ -24,7 +24,9 @@
         </nav>
     </header>
     <main>
-        <h3>White Water Rafting</h3>
+        <div class="title">
+            <h1>White Water Rafting</h1>
+        </div>
         <div class="info">
             <p>123 Main River street</p>
             <p>Kolob, California</p>
@@ -54,12 +56,24 @@
                     <fieldset>
                         <legend>Questions</legend>
                         <div class="form-item column1">
-                            <label for="browser">Message purpose</label>
-                            <select name="browser" id="browser">
-                                <option value="General Inquiry">General Inquiry</option>
-                                <option value="Reservation Question">Reservation Question</option>
-                                <option value="Website Suggestion">Website Suggestion</option>
-                            </select>
+                            <p>Message purpose</p>
+
+                            <div class="message">
+                                <label>
+                                    <input type="radio" id="message" name="message">
+                                    General Inquiry
+                                </label><br>
+
+                                <label>
+                                    <input type="radio" id="message" name="message">
+                                    Reservation Question
+                                </label><br>
+
+                                <label>
+                                    <input type="radio" id="messsage" name="message">
+                                    Website Suggestion
+                                </label>
+                            </div>
                         </div>
 
                         <div class="form-item column3">
@@ -68,7 +82,7 @@
                               placeholder="Type here"></textarea>
                         </div>
 
-                        <div class="form-item column1">
+                        <div class="form-item column4">
                             <label for="newsletter">Please Suscribe me to the monthly
                                 newsletter</label>
                             <input type="checkbox" id="newsletter" name="newsletter">
