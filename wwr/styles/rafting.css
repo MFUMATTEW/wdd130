@@ -85,7 +85,8 @@ header {
     grid-template-columns: 120px 1fr;
     align-items: center;
     gap: 200px;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
+    border-bottom: var(--accent2-color) solid 1px;
 }
 
 .navigation {
@@ -214,7 +215,7 @@ iframe {
 
 form {
     width: 380px;
-    height: 600px;
+    height: auto;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 0.1);
@@ -328,4 +329,79 @@ button:hover {
 .column4 label {
     font-size: .83rem;
     text-align: left;
+}
+
+/* Home Page */
+
+.join {
+    margin-top: 3rem;
+}
+
+.oportunity {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.offer img {
+    width: 380px;
+    height: 250px;
+}
+
+.offer p {
+    text-align: center;
+}
+
+.trips {
+    text-align: center;
+}
+
+.trips a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: navy;
+}
+
+.trips a:hover {
+    color: var(--primary-color);
+}
+
+/* Trips page */
+
+.roads {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 5px;
+}
+
+.roads article {
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+}
+
+.roads article img {
+    width: 265px;
+    height: 160px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    border: 1px solid rgb(150 150 150);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr,
+tfoot tr {
+    background-color: rgb(0 0 0);
+    color: white;
+    font-weight: 700;
 }
