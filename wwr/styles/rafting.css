@@ -53,6 +53,10 @@ nav a {
     height: auto;
 }
 
+.size img {
+    height: 530px;
+}
+
 h1 {
     position: absolute;
     top: 20px;
@@ -156,7 +160,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding: 1px;
+    border-top: var(--accent1-color) solid 1px;
+}
+
+.socialmedia {
+    padding: 3px;
 }
 
 footer p {
@@ -381,7 +390,7 @@ button:hover {
 }
 
 .roads article img {
-    width: 265px;
+    width: 264px;
     height: 160px;
 }
 
